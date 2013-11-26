@@ -1,0 +1,16 @@
+{
+	"name": "TrackingObserver Add-On: Raw Data",
+	"version": "0.1",
+	"manifest_version": 2,
+	
+	"description": "Add-on to TrackingObserver that dumps raw data.",
+	
+	"permissions": [
+        "background"
+	],
+    
+    "background": {
+		"scripts": ["Background.js"],
+		"persistent": true
+	}
+}
